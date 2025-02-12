@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Sora", serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  padding: 0 .5rem;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+/* Solucion */
+.card {
+  max-width: 23rem;
+  margin: 10.25rem auto 0 auto;
+  border-radius: 1rem;
+  padding: 1rem 0 1.25rem 0;
+  /* border: 1px solid black; */
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.15);
+}
+
+.card-padding {
+  padding: 0 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.chip {
+  margin: 1rem 0;
+  background-color: #f2eafd;
+  display: inline-block;
+  padding: 0.375rem 1rem;
+  border-radius: 1rem;
+  color: #7c19ee;
+  font-size: 0.625rem;
+}
+
+h1 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.375rem;
+}
+
+hr {
+  margin: 1.25rem 0;
+  border: 1px solid #e5eaf0;
+}
+
+.tag {
+  font-size: 0.75rem;
+}
